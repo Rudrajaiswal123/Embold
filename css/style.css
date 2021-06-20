@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#menubar{
+    padding-left: 0;
+    padding-right: 0;
+    width:4%;
+    height:120vh;
+    background:#F7F7F7;
+    text-align: center;
+}
+#menu {
+    background:#21AAB0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#menu i{
+    color:#fff;
+    padding:20px 0;
+    font-size: 20px;
+}
+#underlist li i{
+    color:#7B7B7B;
+    padding:10px 0;
+}
+.nav-link i{
+    color:#7B7B7B;
+    font-size: 20px;
+}
+
+#header{
+    width:96%;
+    left:4%;
+    background:white;    
+    padding:5px 0 5px 0;
+    margin: 0;
+}
+.account-setting{
+    display: flex; 
+    flex-direction:row;
+    padding-right: 40px;
+}
+
+#header i{
+    font-size:30px;
+    align-self: center;
+    color:#7B7B7B;
+}
+.navbar p{
+    margin:0px 20px 0px 0px;
+    font-weight: 500;
+    line-height: 15px;
+    color:#7B7B7B;
+}
+
+hr{
+    margin:0;
+}
+
+#content{
+    width:94%;
+    padding-left:30px;
+    margin-left:4%;
+    margin-top:6%;
+    margin-right: 2%;
+}
+#content h4{
+    color:#7B7B7B;
+}
+.search{
+    width:13%;
+}
+.search .form-control {
+    padding-left: 2.375rem;
+    border-radius:50px;
+    border-width:2px;
+}
+
+.search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.table{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+td{
+    
+    font-weight: 600;
+}
+td i{
+    color:#7B7B7B;
+}
+
+
